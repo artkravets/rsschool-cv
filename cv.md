@@ -61,3 +61,9 @@ Wordpress, Adobe Photoshop
 
 
 ***
+
+## Languages:
+
+* English - Intermediate (according to the online test at EFset Logo [www.efset.org](www.efset.org))
+
+* Russian - Native

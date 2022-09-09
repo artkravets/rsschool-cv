@@ -28,3 +28,36 @@ Having started learning programming with C++ and C#, i was interested in 3D mode
 * Figma
 
 ***
+
+## Code example:
+
+**Create Phone Number KATA from Codewars:** *Write a function that accepts an array of 10 integers (between 0 and 9), that returns a string of those numbers in the form of a phone number.*
+
+```
+function createPhoneNumber(numbers){
+numbers.unshift('(');
+numbers.splice(4,0,')');
+numbers.splice(5,0,' ');
+numbers.splice(9,0,'-');
+
+return numbers.join('');
+}
+```
+
+***
+
+## Education & Credentials:
+
+#### Bachelor of Information Security, 2024 (in progress):
+Moscow Technical University of Communications and Informatics, Moscow
+
+#### Computer & Web Knowledge/Skills:
+Wordpress, Adobe Photoshop
+
+#### Courses:
+* JavaScript Manual on [learnjavascript.ru](https://learn.javascript.ru/) (in progress)
+* RS Schools Course «JavaScript/Front-end. Stage 1» (in progress)
+
+
+
+***

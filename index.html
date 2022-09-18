@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+    <title>cv</title>
+</head>
+<body>
+
+    <header class="header">
+
+        <div class="container">
+
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item"> <a href="#contacts" class="nav-link">Contacts</a></li>
+                    <li class="nav-item"> <a href="#summary" class="nav-link">Summary</a></li>
+                    <li class="nav-item"> <a href="#skills" class="nav-link">Skills</a></li>
+                    <li class="nav-item"> <a href="#code" class="nav-link">Code</a></li>
+                    <li class="nav-item"> <a href="#education" class="nav-link">Education</a></li>
+                    <li class="nav-item"> <a href="#courses" class="nav-link">Courses</a></li>
+                    <li class="nav-item"> <a href="#languages" class="nav-link">Languages</a></li>
+                </ul>
+            </nav>
+
+            <div class="toogle">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+
+            </div>
+            
+        </div>
+
+    </header>
+
+    <main class="main">
+
+       
+
+        <div class="container main-container" >
+            
+            <section class="section section-profile" id="profile">
+
+                <img src="./assets/img/avatar.jpg" alt="Artem Kravets" class="section-profile-logo">
+
+                <div class="section-profile-title">
+                    <h1 class="section-title main-title">Artem Kravets</h1>
+                    <h3 class="section-subtitle">Trainee Frontend Developer</h3>
+                </div>
+             
+
+            </section>
+
+            <section class="section" id="contacts">
+
+                <h2 class="section-title">Contacts</h2>
+                
+                    <ul class="section-list">
+                        <li class="section-item contacts-item">Moscow, Russia</li>
+                        <li class="section-item contacts-item">E-mail: <a href="mailto:artkravecz@gmail.com" class="link">artkravecz@gmail.com</a></li>
+                        <li class="section-item contacts-item">Github: <a href="https://github.com/artkravets" class="link">artkravets</a></li>
+                    </ul>
+           
+
+            </section>
+
+            <section class="section" id="summary">
+                <h2 class="section-title">Summary</h2>
+                <p class="section__content">
+                    Having started learning programming with C++ and C#, i was interested in web-development. 
+                    Simultaneously i started making Wordpress templates, using HTML/CSS in the process. 
+                    Then i became a Wordpress freelancer as self employed. Two years later,
+                    I needed to use more features in my work than Wordpress makes possible.
+                    So I decided to take a more detailed study of HTML/CSS and JavaScript.
+                    I was very impressed with the functionality of Javascript and its frameworks.
+                    I also started learning Git and Figma. My plane is to learn Lodash, Webpack builder,
+                    testing of JavaScript applications and React framework in the future. 
+                    I chose a frontend developer career because I really like to make beautiful and user-friendly interfaces.
+                </p>
+            </section>
+
+            <section class="section" id="skills">
+                <h2 class="section-title">Skills</h2>
+                
+                    <ul class="section-list">
+                        <li class="section-item">Web-development: <span>HTML5, CSS3, JavaScript</span> </li>
+                        <li class="section-item">Version conrol: <span>GIT, Github</span> </li>
+                        <li class="section-item">Graphics: <span> Figma </span></li>
+                        <li class="section-item">CMS: <span> Wordpress </span></li>
+                    </ul>
+                
+            </section>
+
+            <section class="section" id="code">
+                <h2 class="section-title">Code</h2>
+                
+            <pre class="pre"><code>function createPhoneNumber(numbers){
+    numbers.unshift('(');
+    numbers.splice(4,0,')');
+    numbers.splice(5,0,' ');
+    numbers.splice(9,0,'-');
+    return numbers.join('');
+}</code></pre>
+                
+            </section>
+
+            <section class="section" id="education">
+                <h2 class="section-title">Education</h2>
+                <ul class="section-list">
+                    <li class="section-item">Moscow Technical University of Communications and Informatics</li>
+                </ul>
+                
+            </section>
+
+            <section class="section" id="courses">
+                <h2 class="section-title">Courses</h2>
+                <ul class="section-list">
+                    <li class="section-item">Rolling Scopes School - <span>JavaScript/Front-end. Stage 1</span> </li> 
+                </ul>
+            </section>
+
+            <section class="section section-languages" id="languages">
+                <h2 class="section-title">Languages</h2>
+                <ul class="section-list">
+                    <li class="section-item">English - B1 Pre-Intermediate</li>
+                    <li class="section-item">Russian - Native</li>
+                </ul>
+            </section>
+        
+
+        </div>
+
+    </main>
+
+    <footer class="footer">
+
+        <div class="container footer-container">
+
+            <div>
+                © 2022
+                <a href="https://github.com/artkravets" class="github nav-link">artkravets</a>
+            </div>
+
+        </div>
+
+    </footer>
+
+    <script src="./index.js"></script>
+</body>
+</html>

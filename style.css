@@ -282,7 +282,7 @@ html {
     line-height: 45px;
   }
 
-  .toogle {
+  .toggle {
     display: none;
     flex-direction: column;
     justify-content: center;
@@ -296,7 +296,7 @@ html {
     z-index: 15;
   }
 
-  .toogle div {
+  .toggle div {
     width: 80%;
     height: 2px;
     background: #fff;
